@@ -1,0 +1,15 @@
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/bin/Debug/net7.0/FirstSolution
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/bin/Debug/net7.0/FirstSolution.deps.json
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/bin/Debug/net7.0/FirstSolution.runtimeconfig.json
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/bin/Debug/net7.0/FirstSolution.dll
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/bin/Debug/net7.0/FirstSolution.pdb
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.csproj.AssemblyReference.cache
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.AssemblyInfoInputs.cache
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.AssemblyInfo.cs
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.csproj.CoreCompileInputs.cache
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.dll
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/refint/FirstSolution.dll
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.pdb
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/FirstSolution.genruntimeconfig.cache
+/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/obj/Debug/net7.0/ref/FirstSolution.dll
