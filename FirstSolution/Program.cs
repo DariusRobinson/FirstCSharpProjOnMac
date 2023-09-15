@@ -1,25 +1,43 @@
 ﻿using MySql.Data.MySqlClient;
-
-
+using System;
 
 public class MyClass
 {
-    static MySqlConnection con;
+    private MySqlConnection con;
 
-    public void ConnectToDB(string user, string password)
+    public MySqlConnection ConnectToDB(string user, string password)
     {
-        con = new MySqlConnection();
-
         try
         {
-            con.ConnectionString = "server = localhost; User Id = " + user + ";" + "Persist Security Info = True; datatbase = hello; Password = " + password + ";";
+            string connectionString = $"server=Dariuss-MacBook-Air.local;user={user};persistsecurityinfo=True;database=FirstTable;password={password}";
+            con = new MySqlConnection(connectionString);
+            con.Open();
+            Console.WriteLine("Connection Successful");
+            return con;
         }
-        catch (Exception ex)
+        catch (MySqlException ex)
         {
-            Console.WriteLine("Not succesful! due to ")
+            Console.WriteLine("Connection Failed due to " + ex.Message);
+            return null;
         }
     }
+
+    public void CloseConnection()
+    {
+        if (con != null && con.State == System.Data.ConnectionState.Open)
+        {
+            con.Close();
+            Console.WriteLine("Connection Closed");
+        }
+    }
+
+    public static void Main(string[] args)
+    {
+        MyClass myClass = new MyClass();
+        MySqlConnection connection = myClass.ConnectToDB("", "");
+
+        // Perform database operations here
+
+        myClass.CloseConnection();
+    }
 }
-
-
-
