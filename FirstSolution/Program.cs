@@ -9,7 +9,7 @@ public class MyClass
     {
         try
         {
-            string connectionString = $"server=Dariuss-MacBook-Air.local;user={user};persistsecurityinfo=True;database=FirstTable;password={password}";
+            string connectionString = $"server=Dariuss-MacBook-Air.local;user={user};persistsecurityinfo=True;database=initial;password={password}";
             con = new MySqlConnection(connectionString);
             con.Open();
             Console.WriteLine("Connection Successful");
@@ -34,9 +34,10 @@ public class MyClass
     public static void Main(string[] args)
     {
         MyClass myClass = new MyClass();
-        MySqlConnection connection = myClass.ConnectToDB("", "");
+        MySqlConnection connection = myClass.ConnectToDB("dev", "Brooklyn18!");
 
         // Perform database operations here
+
 
         myClass.CloseConnection();
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fj2rDXNJ/hMC8c3APpnAO4MW6GNIZK4qUjhgi/l5j7RR/d1aan3oJ3xZlEx/oqdVitSMu7jrDC7SY5QxpUJFog==",
+  "dgSpecHash": "IbHq+TCMXiEiYGGBht5Qh9dPcx1//4ft+lm5TBDrdiKQUuzPzLugB5qh3xmy8uD6U2ovfJOiGAELzGGNmdcIMQ==",
   "success": true,
   "projectFilePath": "/Users/dariusrobinson/Projects/MicrosoftProjects/FirstSolution/FirstSolution/FirstSolution.csproj",
   "expectedPackageFiles": [
@@ -35,10 +35,12 @@
     "/Users/dariusrobinson/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/mysql.data/8.1.0/mysql.data.8.1.0.nupkg.sha512",
+    "/Users/dariusrobinson/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/npgsql.entityframeworkcore.postgresql.design/1.1.0/npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",
+    "/Users/dariusrobinson/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/portable.bouncycastle/1.9.0/portable.bouncycastle.1.9.0.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/dariusrobinson/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",

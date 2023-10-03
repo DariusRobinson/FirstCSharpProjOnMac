@@ -1,24 +1,30 @@
 ﻿<Properties StartupConfiguration="{B7AC1FBB-CDDD-4D7E-876E-DC75CF6F85CD}|Default">
-  <MonoDevelop.Ide.ItemProperties.FirstSolution PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FirstSolution/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoodForUFood/Models/FoodItem.cs">
     <Files>
-      <File FileName="FirstSolution/Program.cs" Line="19" Column="56" />
-      <File FileName="GoodForUFood/Controllers/HomeController.cs" Line="4" Column="1" />
+      <File FileName="FirstSolution/Program.cs" />
+      <File FileName="GoodForUFood/Controllers/HomeController.cs" />
+      <File FileName="GoodForUFood/Models/FoodItem.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FirstSolution">
+          <Node name="FirstSolution" expanded="True">
             <Node name="FirstSolution" expanded="True" />
+            <Node name="GoodForUFood" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="FoodItem.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FirstSolution PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
