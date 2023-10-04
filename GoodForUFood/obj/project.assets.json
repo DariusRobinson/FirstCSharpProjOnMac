@@ -381,6 +381,24 @@
           }
         }
       },
+      "MySql.EntityFrameworkCore/7.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
+          "MySql.Data": "8.1.0"
+        },
+        "compile": {
+          "lib/net7.0/MySql.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/MySql.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MySqlConnector/2.2.5": {
         "type": "package",
         "compile": {
@@ -1326,6 +1344,21 @@
         "runtimes/win-x64/native/k5sprt64.dll",
         "runtimes/win-x64/native/krb5_64.dll",
         "runtimes/win-x64/native/krbcc64.dll"
+      ]
+    },
+    "MySql.EntityFrameworkCore/7.0.5": {
+      "sha512": "cgAuQZqGaqWm+7B7CZ1fIJrA4/V8JITFuRAC5FEWlhvZA0SM9pH7iYzaCla4gsk97n81ZBqLJyquUI5VTucG3w==",
+      "type": "package",
+      "path": "mysql.entityframeworkcore/7.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/MySql.EntityFrameworkCore.dll",
+        "lib/net6.0/MySql.EntityFrameworkCore.xml",
+        "lib/net7.0/MySql.EntityFrameworkCore.dll",
+        "lib/net7.0/MySql.EntityFrameworkCore.xml",
+        "mysql.entityframeworkcore.7.0.5.nupkg.sha512",
+        "mysql.entityframeworkcore.nuspec"
       ]
     },
     "MySqlConnector/2.2.5": {
@@ -2433,6 +2466,7 @@
     "net7.0": [
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.11",
       "MySql.Data >= 8.1.0",
+      "MySql.EntityFrameworkCore >= 7.0.5",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0"
     ]
   },
@@ -2482,6 +2516,10 @@
           "MySql.Data": {
             "target": "Package",
             "version": "[8.1.0, )"
+          },
+          "MySql.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.5, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
